@@ -45,11 +45,12 @@ under the License.
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<flink.version>1.15.0</flink.version>
+		<flink.version>1.17.1</flink.version>
 		<scala.binary.version>2.12</scala.binary.version>
 		<scala.version>2.12.7</scala.version>
 		<log4j.version>2.17.1</log4j.version>
 		<hadoop.version>3.2.2</hadoop.version>
+		<flink-connector-jdbc.version>3.1.0-1.17</flink-connector-jdbc.version>
 	</properties>
 
 	<dependencies>
@@ -104,7 +105,7 @@ under the License.
 		<dependency>
 			<groupId>org.apache.flink</groupId>
 			<artifactId>flink-connector-jdbc</artifactId>
-			<version>${flink.version}</version>
+			<version>${flink-connector-jdbc.version}</version>
 		</dependency>
 
 		<dependency>
